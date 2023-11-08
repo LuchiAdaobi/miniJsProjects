@@ -15,7 +15,28 @@ body{
 img{
     display: block;
 }
-#btn{
 
+#btn{
+    padding: 1rem;
+    background-color: crimson;
+    border: none;
+    border-radius: .7rem;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.toast {
+    padding: 1rem;
+    background-color: crimson;
+    color: white;
+    border-radius: .5rem;
+    margin: 1rem auto;
 }
 
