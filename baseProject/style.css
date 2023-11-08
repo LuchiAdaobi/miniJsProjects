@@ -14,4 +14,15 @@ body{
 img{
     display: block;
 }
+button {
+    background-color: crimson;
+    padding: .5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: .6rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: none;
+}
 

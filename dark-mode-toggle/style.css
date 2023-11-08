@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem;
+  transition: background .3s linear, color .3s linear;
+}
+ body.dark {
+  background-color: #222222;
+  color: white;
+} 
+body.dark label {
+    background-color: white;
+}
+.toggle-container{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+label {
+    user-select: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    transition: background .3s linear
+}
+input {
+    visibility: hidden;
+}
