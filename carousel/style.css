@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  display: block;
+}
+button {
+  background-color: crimson;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  outline: none;
+}
+
+.carousel {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.image-container {
+  display: flex;
+  transition: transform .3s linear;
+  transform: translateX(0);
+}
+
+.image-container img {
+  height: 400px;
+  height: 400px;
+  object-fit: contain;
+}
